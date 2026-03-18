@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>晋东南古建 · 清明巡礼 2026</title>
+    <style>
+        :root {
+            --apple-bg: #f5f5f7;
+            --apple-text: #1d1d1f;
+            --apple-secondary: #86868b;
+            --apple-blue: #0066cc;
+            --glass: rgba(255, 255, 255, 0.8);
+            --card-radius: 22px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "SF Pro SC", "HanHei SC", "PingFang SC", sans-serif;
+            background-color: var(--apple-bg);
+            color: var(--apple-text);
+            line-height: 1.5;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Apple Style Nav */
+        nav {
+            position: fixed;
+            top: 0; width: 100%; height: 52px;
+            background: var(--glass);
+            backdrop-filter: saturate(180%) blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+            display: flex; justify-content: center; align-items: center;
+        }
+        nav a { color: var(--apple-text); text-decoration: none; font-size: 12px; font-weight: 500; opacity: 0.8; }
+
+        /* Hero */
+        header {
+            height: 85vh;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            text-align: center; background: #fff;
+        }
+        .hero-title { font-size: clamp(40px, 8vw, 80px); font-weight: 600; letter-spacing: -0.02em; }
+        .hero-sub { font-size: 24px; color: var(--apple-secondary); margin-top: 10px; }
+
+        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+
+        /* Day Heading */
+        .day-label { 
+            font-size: 14px; color: var(--apple-blue); font-weight: 600; 
+            margin-top: 80px; text-transform: uppercase; 
+        }
+        .day-title { font-size: 40px; margin-bottom: 30px; }
+
+        /* Bento Grid Card */
+        .card {
+            background: #fff; border-radius: var(--card-radius);
+            padding: 40px; margin-bottom: 24px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card:hover { transform: translateY(-5px); box-shadow: 0 12px 40px rgba(0,0,0,0.08); }
+
+        .tag { 
+            display: inline-block; padding: 4px 12px; border-radius: 12px; 
+            font-size: 12px; font-weight: 600; margin-bottom: 16px;
+        }
+        .tag-guobao { background: #fff1f0; color: #cf1322; border: 1px solid #ffa39e; }
+        .tag-hotel { background: #e6f7ff; color: #1890ff; border: 1px solid #91d5ff; }
+        .tag-food { background: #f6ffed; color: #52c41a; border: 1px solid #b7eb8f; }
+
+        .meta { display: flex; gap: 20px; color: var(--apple-secondary); font-size: 14px; margin: 15px 0; }
+        .audio-box {
+            background: #f9f9fb; border-radius: 16px; padding: 20px; margin: 20px 0;
+            border-left: 4px solid var(--apple-blue);
+        }
+        .audio-box i { font-style: italic; color: #424245; font-size: 15px; }
+
+        .btn {
+            display: inline-block; padding: 10px 20px; border-radius: 980px;
+            background: var(--apple-text); color: #fff; text-decoration: none;
+            font-size: 13px; margin-top: 10px; transition: 0.2s;
+        }
+        .btn:hover { opacity: 0.8; }
+
+        footer { padding: 100px 0; text-align: center; color: var(--apple-secondary); font-size: 12px; }
+
+        @media (max-width: 600px) {
+            .card { padding: 24px; }
+            .meta { flex-direction: column; gap: 8px; }
+        }
+    </style>
+</head>
+<body>
+
+<nav><a href="#">晋东南 · 古建清明巡礼计划 2026</a></nav>
+
+<header>
+    <div class="hero-title">见木，见心。</div>
+    <div class="hero-sub">太行之南的早期木构与彩塑美学。</div>
+</header>
+
+<div class="container">
+
+    <div class="day-label">Day 1 · 长治深处</div>
+    <h2 class="day-title">从大唐风骨到大宋温存</h2>
+
+    <div class="card">
+        <span class="tag tag-guobao">国保第一批 · 法兴寺</span>
+        <h3>法兴寺</h3>
+        <div class="meta">
+            <span>📍 长治长子县</span>
+            <span>🚗 起点站</span>
+            <span>⏱ 建议游览：2h</span>
+        </div>
+        <div class="audio-box">
+            <i>🎙️「语音解说词」：这里是晋东南的灵魂。圆觉殿里的十二圆觉菩萨，她们不再是高不可攀的神，而是宋代优雅的女子。你看那“水纹”般堆叠的绸缎感，是工匠在泥土里灌注了呼吸。</i>
+        </div>
+        <a href="https://uri.amap.com/marker?position=112.9238,36.1245&name=法兴寺" class="btn" target="_blank">导航至此</a>
+    </div>
+
+    <div class="card">
+        <span class="tag tag-guobao">国保第三批 · 崇庆寺</span>
+        <h3>崇庆寺</h3>
+        <div class="meta">
+            <span>📍 长治长子县</span>
+            <span>🚗 距离上一站：12km (20min)</span>
+        </div>
+        <div class="audio-box">
+            <i>🎙️「语音解说词」：这里的罗汉像极其写实。注意那个正在掏耳朵的罗汉，那种瞬间的、肌肉的微动被定格了千年。这不仅是宗教，这是宋代的现实主义摄影。</i>
+        </div>
+        <a href="https://uri.amap.com/marker?position=112.8712,36.0821&name=崇庆寺" class="btn" target="_blank">导航至此</a>
+    </div>
+
+    <div class="card">
+        <span class="tag tag-food">餐饮推荐 · 长子猪头肉炒饼</span>
+        <h3>长子县地道风味</h3>
+        <p style="font-size: 15px; color: #424245;">
+            理由：山西炒饼看长子。猪头肉软烂Q弹，饼丝吸收了浓郁的肉汁，配上一头紫皮大蒜，是自驾路上最顶饱的慰藉。
+        </p>
+        <a href="https://uri.amap.com/search?query=长子猪头肉炒饼" class="btn" target="_blank">寻找附近店铺</a>
+    </div>
+
+    <div class="card">
+        <span class="tag tag-hotel">酒店推荐 · 长治爵美轻奢酒店</span>
+        <h3>长治爵美轻奢酒店</h3>
+        <p style="font-size: 15px; color: #424245;">
+            理由：曾获国际设计大奖，现代主义与当地文化的微妙平衡，配备智能家居系统，是劳顿一整天后最接近 Apple 设计逻辑的下榻点。
+        </p>
+        <a href="https://uri.amap.com/marker?position=113.1167,36.1956&name=爵美轻奢酒店" class="btn" target="_blank">导航至此</a>
+    </div>
+
+    <div class="day-label">Day 2 · 高平之怒</div>
+    <h2 class="day-title">在愤怒的彩塑中，触碰明代天顶</h2>
+
+    <div class="card" style="background: #1d1d1f; color: #fff;">
+        <span class="tag tag-guobao" style="background:#ff4500; border:none; color:#fff">国保第四批 · 铁佛寺</span>
+        <h3 style="color:#fff">铁佛寺</h3>
+        <div class="meta" style="color:#86868b">
+            <span>📍 晋城高平市</span>
+            <span>🚗 距离上一站：65km (1.2h)</span>
+        </div>
+        <div class="audio-box" style="background: #2c2c2e;">
+            <i style="color:#d2d2d7">🎙️「语音解说词」：这是明代彩塑的“暴力美学”。二十四诸天像如火焰般扭动，冠带飞扬，怒目圆睁。这种压迫感在全国古建中独一无二。</i>
+        </div>
+        <a href="https://uri.amap.com/marker?position=112.8532,35.8124&name=铁佛寺" class="btn" style="background:#fff; color:#000" target="_blank">导航至此</a>
+    </div>
+
+    <div class="card">
+        <span class="tag tag-food">餐饮推荐 · 高平烧豆腐</span>
+        <h3>高平烧豆腐 (推荐：育泽源)</h3>
+        <p style="font-size: 15px; color: #424245;">
+            理由：源自长平之战的悲情食物，皮黄肉嫩，辛辣鲜香。在高平，豆腐是能吃出“骨气”来的。
+        </p>
+        <a href="https://uri.amap.com/search?query=高平烧豆腐" class="btn" target="_blank">寻找地道店铺</a>
+    </div>
+
+    <div class="day-label">Day 3 · 泽州圆满</div>
+    <h2 class="day-title">星宿下凡，古堡回响</h2>
+
+    <div class="card">
+        <span class="tag tag-guobao">国保第五批 · 玉皇庙</span>
+        <h3>玉皇庙</h3>
+        <div class="meta">
+            <span>📍 晋城泽州县</span>
+            <span>🚗 距离上一站：45km (50min)</span>
+        </div>
+        <div class="audio-box">
+            <i>🎙️「语音解说词」：二十八星宿。元代雕塑天才刘元的封神之作。他把虚幻的星空星座变成了活生生的人，那尊“亢金龙”的神态，是整个晋东南最帅气的瞬间。</i>
+        </div>
+        <a href="https://uri.amap.com/marker?position=112.9156,35.5689&name=玉皇庙" class="btn" target="_blank">导航至此</a>
+    </div>
+
+    <div class="card">
+        <span class="tag tag-hotel">酒店推荐 · 晋城国贸饭店</span>
+        <h3>晋城国贸饭店</h3>
+        <p style="font-size: 15px; color: #424245;">
+            理由：晋城地标，位于市中心，30层手绘景观大厅可俯瞰全城。设计上融汇了晋商传统与现代奢华，服务极其细腻。
+        </p>
+        <a href="https://uri.amap.com/marker?position=112.8524,35.4975&name=晋城国贸饭店" class="btn" target="_blank">导航至此</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 晋东南古建自驾指南</p>
+    <p style="margin-top:8px">解说词参考：小宇宙播客《路书》《遗介》专题</p>
+</footer>
+
+</body>
+</html>
